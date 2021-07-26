@@ -70,7 +70,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>${groupId}.App</mainClass>
+                            <mainClass>${groupId}.${artifactId}.App</mainClass>
                             <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
                         </manifest>
                     </archive>
