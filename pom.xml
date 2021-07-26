@@ -6,7 +6,7 @@
 
     <groupId>br.com.edward.archetypes</groupId>
     <artifactId>simple-maven-archetype</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.0</version>
     <packaging>maven-archetype</packaging>
     
     <name>simple-maven-archetype</name>
