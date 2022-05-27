@@ -60,3 +60,5 @@ Create a new empty directory for your project and navigate into it and then run:
     -DartifactId=my-project-name \
     -Dversion=0.0.1-SNAPSHOT
 ```
+
+Note: The above command will bootstrap a project using the archetype published in your local repository.
