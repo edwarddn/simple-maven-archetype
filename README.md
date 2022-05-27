@@ -28,8 +28,6 @@ Create a project from a local repository
 Create a new empty directory for your project and navigate into it and then run:
 
 ```bash
-  mkdir my-project-name
-  cd my-project-name
   mvn archetype:generate \
     -DarchetypeGroupId=br.com.edward.archetypes \
     -DarchetypeArtifactId=simple-maven-archetype \
