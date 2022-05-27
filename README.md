@@ -1,18 +1,14 @@
-Simple maven archetype
-======================================
+# Simple maven archetype
 
-Summary
--------
+## Summary
 The project is a Maven archetype for Java console application.
 
-Prerequisites
--------------
+## Prerequisites
 
 - JDK 17 (tested with Java 17)
 - Maven 3 (tested with 3.8.5)
 
-Install archetype locally
--------------------------
+## Install archetype locally
 
 To install the archetype in your local repository execute the following commands:
 
@@ -22,8 +18,7 @@ To install the archetype in your local repository execute the following commands
   mvn clean install
 ```
 
-Create a project from a local repository
-----------------------------------------
+## Create a project from a local repository
 
 Create a new empty directory for your project and navigate into it and then run:
 

@@ -7,10 +7,10 @@ import java.io.PrintStream;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class AppTest {
+class AppTests {
 
     @Test
-    public void mainTest() {
+    void mainTest() {
 
         final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
         System.setOut(new PrintStream(outContent));
