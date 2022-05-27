@@ -17,9 +17,9 @@ Install archetype locally
 To install the archetype in your local repository execute the following commands:
 
 ```bash
-    git clone git@github.com:edwarddn/simple-maven-archetype.git
-    cd simple-maven-archetype
-    mvn clean install
+  git clone git@github.com:edwarddn/simple-maven-archetype.git
+  cd simple-maven-archetype
+  mvn clean install
 ```
 
 Create a project from a local repository
@@ -28,11 +28,13 @@ Create a project from a local repository
 Create a new empty directory for your project and navigate into it and then run:
 
 ```bash
-    mvn archetype:generate \
-        -DarchetypeGroupId=br.com.edward.archetypes \
-        -DarchetypeArtifactId=simple-maven-archetype \
-        -DarchetypeVersion=1.0.0 \
-        -DgroupId=br.com.myname.myproject \
-        -DartifactId=my-project-name \
-        -Dversion=0.0.1-SNAPSHOT
+  mkdir my-project-name
+  cd my-project-name
+  mvn archetype:generate \
+    -DarchetypeGroupId=br.com.edward.archetypes \
+    -DarchetypeArtifactId=simple-maven-archetype \
+    -DarchetypeVersion=1.0.0 \
+    -DgroupId=br.com.myname.myproject \
+    -DartifactId=my-project-name \
+    -Dversion=0.0.1-SNAPSHOT
 ```
